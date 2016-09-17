@@ -53,6 +53,10 @@ test-jsapi:
 	@printf "==> [Test :: JS API]\n"
 	node test/jsapi
 
+test-jsapi-2stage:
+	@printf "==> [Test :: JS API]\n"
+	node test/jsapi-2stage
+
 test-unit:
 	@printf "==> [Test :: Unit]\n"
 	$(MOCHA) --reporter $(REPORTER) \
